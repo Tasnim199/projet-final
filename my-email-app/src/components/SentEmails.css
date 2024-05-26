@@ -1,0 +1,28 @@
+/* SentEmails.css */
+
+.email-item {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between items as needed */
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Optional: Adds a border between email items */
+  }
+  
+  .email-item p {
+    margin: 0;
+  }
+  
+  .email-item button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-item button:hover {
+    background-color: #0056b3;
+  }
+  
